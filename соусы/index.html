@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="order.html">
+    <input required type="text" name="logim" placeholder="Логин">
+    <br>
+    <input required type= "password" name="password" placeholder="Пароль">
+    <br>
+    <input type="checkbox" name="eula_agree"> Согласен на обработку ПД
+    <br>
+    <input required type="text"
+    placeholder="+7XXX-XXX-XX-XX"
+    pattern="\+7\d{3}-\d{3}-\d{2}-\d{2}"
+    >
+    <p>Выберите еду</p>
+    <input required type="radio" name="еда" value="philadelphia" id="food">Ролл филадельфия лайт
+    <br>
+    <input type="radio" name="еда" value="crad" id="food">Ролл темпурный краб
+    <br>
+    <input type="radio" name="еда" value="nuggets" id="food">Наггетсы
+    <br>
+    <input type="radio" name="еда" value="strips" id="food">Стрипсы
+    <br>
+    <input type="radio" name="еда" value="fries" id="food">Картошка фри
+    <br>
+    <input type="radio" name="еда" value="rustic" id="food">Картошка по-деревенски
+    <br>
+    <input type="radio" name="еда" value="wings" id="food">Крылышки
+    <p>Выберите соус</p>
+    <select requiredс name="" id="">
+        <option value="">Сырный</option>
+        <option value="">Кисло-сладкий чили</option>
+        <option value="">Соус чесночный</option>
+        <option value="">Соус терияки</option>
+        <option value="">Соус барбекю</option>
+        <option value="">Соус томатный</option>
+        <option value="">Соус соевый</option>
+        <option value="">Соус унаги</option>
+    </select>
+    <input type="submit" value="войти">
+</body>
+</html>
